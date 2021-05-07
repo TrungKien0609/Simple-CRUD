@@ -18,6 +18,10 @@ include "headandfoot/head.php";
         <div class="card-header">
             <h3>View user: <?php echo $user['name'] ?></h3>
         </div>
+        <div class="card-body">
+        <a class="btn btn-secondary" href="update.php?id=<?php echo $userId ?>">Update</a>
+        <a class="btn btn-danger" href="delete.php?id=<?php echo $userId ?>">Delete</a>
+        </div>
         <table class="table">
             <tbody>
                 <tr>

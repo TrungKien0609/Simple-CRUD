@@ -3,7 +3,7 @@ require "users.php";
 $users = getUsers();
 include "headandfoot/head.php";
 ?>
-<div class="container">
+<div class="container" style="margin-top: 2rem;">
     <p class="container">
         <a href="create.php" class="btn btn-outline-success">Create new user</a>
     </p>
